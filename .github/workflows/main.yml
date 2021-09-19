@@ -14,3 +14,13 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Display full year instead of half year
+          plugin_languages: yes
+          plugin_lines: yes
+          plugin_repositories: yes
+          plugin_repositories_featured: virtual-cast/babylon-vrm-loader, il-m-yamagishi/bleeding
+          plugin_topics: yes
+          plugin_topics_sort: stars    # Sort by most starred topics
